@@ -1,0 +1,364 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Kontainer Utama */
+.container {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Bagian Gambar */
+.image-section {
+  flex: 1;
+  position: relative;
+}
+
+.image-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Bagian Login */
+.login-section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.login-content {
+  width: 100%;
+  max-width: 350px;
+  text-align: center;
+}
+
+/* Logo Saly di Tengah */
+.saly-icon {
+  margin-bottom: 20px;
+}
+
+.saly-icon img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+/* Judul Masuk */
+h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Input Box */
+.input-box {
+  margin-bottom: 15px;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.input-box input:focus {
+  border-color: #0088cc;
+}
+
+/* Tombol Login */
+.btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #0088cc;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #005f99;
+}
+
+/* Lupa Kata Sandi */
+.forgot-password {
+  display: block;
+  margin: 10px 0;
+  color: #0088cc;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+/* Teks "ATAU MASUK DENGAN" */
+p {
+  margin-top: 15px;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+
+/* Ikon Media Sosial */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.social-icons a img {
+  width: 36px;
+  height: 36px;
+  transition: transform 0.3s ease;
+}
+
+.social-icons a img:hover {
+  transform: scale(1.1);
+}
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #044E75; /* Warna biru latar belakang */
+    padding: 10px 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header-content h1 {
+    color: white;
+    font-size: 24px;
+}
+
+/* Memindahkan menu ke kanan */
+nav {
+    margin-left: auto; /* Memastikan navigasi terletak di kanan */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px; /* Jarak antar menu */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url("https://prosultra.com/wp-content/uploads/2023/07/Pantai-Bone.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-content {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero-content h2 {
+    color: white; 
+    font-size: 64px; 
+    margin: 10px 0;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-top: 10px;
+    font-style: italic; 
+}
+
+/* Tambahan untuk Bagian Tambahan */
+.additional-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.additional-content {
+    display: flex;
+    align-items: center; 
+    max-width: 600px;
+}
+
+.saly-icon {
+    width: 100px; 
+    height: auto; 
+    margin-right: 20px; 
+}
+
+.text-content {
+    text-align: left; 
+}
+
+.text-content p {
+    color: black; /* Mengatur warna teks paragraf menjadi hitam */
+}
+
+.additional-content h2 {
+    font-size: 32px;
+    color: #333;
+}
+
+.additional-content p {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.additional-content .btn {
+    width: auto;
+    padding: 12px 20px;
+    background-color: #0088cc;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.additional-content .btn:hover {
+    background-color: #005f99;
+}
+
+/* Menyusun ulang ukuran gambar */
+.logo {
+    max-width: 100%;  /* Membuat gambar responsif */
+    height: auto;     /* Memastikan proporsi gambar tetap */
+}
+
+.usage-section {
+    background-color: #f9f9f9; /* Warna latar belakang */
+}
+
+.usage-steps {
+    display: flex;
+    flex-direction: column; /* Agar langkah-langkah ditampilkan secara vertikal */
+    align-items: flex-start; /* Rata kiri untuk setiap langkah */
+    gap: 20px; /* Jarak antar langkah */
+}
+
+.step {
+    display: flex; /* Menampilkan gambar dan teks dalam satu baris */
+    align-items: center; /* Rata tengah vertikal */
+    background-color: white; /* Latar belakang langkah */
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%; /* Lebar langkah */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan */
+}
+
+
+.step-number {
+    font-size: 24px; /* Ukuran nomor langkah */
+    font-weight: bold;
+    margin-right: 20px; /* Jarak ke teks */
+    color: #007BFF; /* Warna nomor langkah */
+}
+
+.step p {
+    margin: 0; /* Menghilangkan margin default */
+    font-size: 18px; /* Ukuran teks langkah */
+}
+
+.step-image {
+    width: 100px; /* Atur lebar gambar menjadi 100px */
+    height: auto; /* Menjaga rasio aspek */
+    margin: 0 20px; /* Jarak antara gambar dan teks */
+}
+
+.info-additional-section {
+    background-color: #F6C9D7; /* Warna latar belakang */
+    padding: 70px; /* Menambah padding untuk memperbesar area background */
+    text-align: center; /* Memusatkan teks */
+}
+
+.info-content {
+    display: flex;
+    flex-direction: column; /* Menata konten secara vertikal */
+    align-items: center; /* Memusatkan konten */
+}
+
+.info-image {
+    width: 250px; /* Menambah lebar gambar */
+    height: auto; /* Menjaga rasio aspek */
+    margin-bottom: 20px; /* Jarak antara gambar dan teks */
+}
+
+.footer-section {
+    background-color: #F6F6F6; /* Warna latar belakang */
+    padding: 40px; /* Jarak dalam footer */
+    color: black; /* Mengubah warna teks menjadi hitam */
+}
+
+.footer-content {
+    max-width: 1200px; /* Maksimal lebar konten footer */
+    margin: 0 auto; /* Memusatkan konten */
+}
+
+.footer-links {
+    display: flex; /* Mengatur kolom menjadi fleksibel */
+    justify-content: space-around; /* Memberikan jarak antar kolom */
+    margin-top: 20px; /* Jarak antara judul dan kolom */
+}
+
+.footer-links p {
+    color: black; /* Mengubah warna paragraf di footer menjadi hitam */
+}
+
+.footer-column {
+    text-align: left; /* Menyusun teks ke kiri */
+}
+
+.footer-column h3 {
+    color: black; /* Mengubah warna judul di footer menjadi hitam */
+}
+
+.footer-column h3 {
+    margin-bottom: 10px; /* Jarak antara judul dan isi */
+    font-weight: bold; /* Menebalkan judul */
+}
+
+
